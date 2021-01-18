@@ -16,7 +16,6 @@ Moment.globalMoment = momentTimezone;
 Moment.globalTimezone = "America/Los_Angeles";
 
 
-
 const App = () => {
 	return (
 		<MuiPickersUtilsProvider utils={MomentUtils} libInstance={moment}>
